@@ -1,0 +1,11 @@
+### Start ###
+
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Allow: /images_sitemap.xml
+
+Sitemap: https://ortuk.az/sitemap.xml
+Sitemap: https://ortuk.az/images_sitemap.xml
+
+### Stop ###
