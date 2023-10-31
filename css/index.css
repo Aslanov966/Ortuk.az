@@ -8,7 +8,7 @@ header {
     width: 100%;
     height: 60px;
     position: fixed;
-    background-color: #ffffffff;
+    background-color: rgb(255 0 205);
     z-index: 9999;
 }
 
