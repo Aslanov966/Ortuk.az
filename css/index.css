@@ -41,7 +41,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 30px;
+    gap: 0px;
 }
 .nav-items li{
     list-style: none;
