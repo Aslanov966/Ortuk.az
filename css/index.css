@@ -144,7 +144,8 @@ section img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    border-radius: 41px;
 }
 .card-text{
     width: 100%;
