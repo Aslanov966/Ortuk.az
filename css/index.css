@@ -137,6 +137,7 @@ section img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    border: 0;
 }
 .card{
     width: 35%;
@@ -146,6 +147,7 @@ section img {
     align-items: center;
     margin-top: 50px;
     border-radius: 41px;
+    border:0;
 }
 .card-text{
     width: 100%;
