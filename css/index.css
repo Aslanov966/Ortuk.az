@@ -85,33 +85,16 @@ header{
 
 }
 
-.navbar ul li a {
-    transition: all 0.5s;
-}
-
-.navbar ul li:hover>a {
-    color: rgb(42, 169, 42);
-}
-
-.little-navbars ul li a {
-    transition: all 0.5s;
-}
 
 .footer-links .little-nav {
     transition: all 0.5s;
 }
 
-.little-navbars ul li:hover>a {
-    color: rgb(42, 169, 42);
-}
 
-.footer-links .little-nav :hover>.little-nav {
-    color: rgb(42, 169, 42) !important;
-}
 
 section {
     width: 100%;
-    height: 800px;
+    height: 850px;
 }
 
 section img {
