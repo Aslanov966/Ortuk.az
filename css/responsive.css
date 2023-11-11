@@ -78,68 +78,57 @@
     section img {
         width: 100% !important;
     }
-
-    .products {
-        width: 100% !important;
+    .products{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-
-   
-.products{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.container{
-    max-width: 1320px;
-    width: 100%;
-    margin: auto;
-}
-.products-title{
-    width: 100%;
-    height: 60px;
-    color: #000;
-    text-align: center;
-    font-family: Fira Sans;
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 65px; /* 138.298% */
-    letter-spacing: 3.76px;
-}
-.cards{
-    width: 100%;
-    height: 950px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.card{
-    width: 35%;
-    height:450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-.card-text{
-    width: 100%;
-    height: 50px;
-    color: black;
-    text-align: center;
-    font-family: Fira Sans;
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 65px; /* 138.298% */
-    letter-spacing: 3.76px;
-}
-.card img{
-    width: 80%;
-    height: 330px;
-}
+    .products-title{
+        width: 100%;
+        height: 60px;
+        color: #000;
+        text-align: center;
+        font-family: Fira Sans;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px; /* 138.298% */
+        letter-spacing: 3.76px;
+    }
+    .cards{
+        width: 100%;
+        height: 950px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card{
+        width: 35%;
+        height:450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .card-text{
+        width: 100%;
+        height: 50px;
+        color: black;
+        text-align: center;
+        font-family: Fira Sans;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px; /* 138.298% */
+        letter-spacing: 3.76px;
+    }
+    .card img{
+        width: 80%;
+        height: 330px;
+    }
 
     .mescid-kavrolit {
         width: 100%;
