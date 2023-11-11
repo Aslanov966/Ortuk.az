@@ -1,6 +1,8 @@
 @media only screen and (min-width:1200px) and (max-width:1400px) {
     .container {
         min-width: 1140px;
+        width: 100%;
+        margin: auto;
         
     }
 
@@ -21,26 +23,25 @@
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        gap: 0px;
+        gap: 10px;
         
     }
     .navbar-logo{
-        width: 30%;
+        width: 20%;
         align-items: center;
         display: flex;
     }
     .navbar-items{
-        align-items: center;
+        width: 80%;
     }
     .nav-items{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
+        justify-content: space-around;
     }
     .nav-items li{
         list-style: none;
+        width: 25%;
     }
     .nav-item a{
         text-decoration: none;
