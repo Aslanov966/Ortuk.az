@@ -83,52 +83,63 @@
         width: 100% !important;
     }
 
-    .cards {
-        width: 100%;
-        height: 100%;
-        padding: 50px;
-        display: flex;
-        flex-direction: row !important;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        width: 45%;
-        margin: 10px;
-        height: 390px;
-    }
-
-    .cards-titles {
-        width: 100%;
-        height: 80px;
-        padding-top: 10px;
-        align-items: center;
-    }
-
-    .cards-titles h1 {
-        width: 100%;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
-        font-style: normal;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .card img {
-        width: 100%;
-        height: 300px;
-    }
-
-    .card-title {
-        width: 100%;
-        text-align: center;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.8em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+   
+.products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+}
+.products-title{
+    width: 100%;
+    height: 60px;
+    color: #000;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; /* 138.298% */
+    letter-spacing: 3.76px;
+}
+.cards{
+    width: 100%;
+    height: 950px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 35%;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-text{
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; /* 138.298% */
+    letter-spacing: 3.76px;
+}
+.card img{
+    width: 80%;
+    height: 330px;
+}
 
     .mescid-kavrolit {
         width: 100%;
