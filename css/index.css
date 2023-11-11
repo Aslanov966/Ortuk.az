@@ -162,6 +162,7 @@ section img {
 .card img{
     width: 80%;
     height: 330px;
+    padding: 10px;
 }
 .services {
     width: 100%;
