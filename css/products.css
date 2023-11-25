@@ -358,8 +358,11 @@ header{
 }
 
 
+
+
 footer{
     width: 100%;
+    height: 350px;
     background-color: #FF00CD;
 
 }
@@ -511,7 +514,7 @@ footer{
 }
 .copywriter{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .writer{
     width: 100%;
