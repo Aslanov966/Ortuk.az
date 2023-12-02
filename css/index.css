@@ -600,6 +600,20 @@ footer{
         width: 100% !important;
         margin: auto;
         overflow: hidden;
+
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        background-color: #FF00CD;
+        position: fixed;
+        z-index: 99999;
+        justify-content: center;
+    }
+    .navbar-logo{
+        align-items: center;
     }
     .navbar-items{
         width: 80%;
