@@ -647,7 +647,7 @@ footer{
         height: 950px;
         margin-top: 40px;
         display: flex;
-        flex-direction: column !important;
+        flex-direction: row !important;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -658,7 +658,7 @@ footer{
         width: 100% !important;
         height:360px;
         display: flex;
-        flex-direction: row !important;
+        flex-direction: column !important;
         align-items: center;
         margin-top: 20px;
     }
