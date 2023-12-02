@@ -682,7 +682,7 @@ footer{
 
     .youtubes{
         width: 100%;
-        height: 1100px;
+        height: 960px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -690,7 +690,7 @@ footer{
     }
     .youtube{
         width: 100%;
-        height:1000px;
+        height:600px;
         display: flex;
         flex-direction: column !important;
         justify-content: space-between;
@@ -716,14 +716,12 @@ footer{
         width: 100%;
         height: 250px !important;
         border-radius: 40px;
-        margin-top: 30px;
     
     }
     .video2 iframe{
         width: 100%;
         height: 250px !important;
         border-radius: 40px;
-        margin-top: 30px !important;
     }
     .video1 p{
       width: 100%;
