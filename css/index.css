@@ -650,6 +650,42 @@ footer{
         width: 80%;
         display: none;
     }
+
+    .section1{
+        position: relative;
+        width: 100%;
+        height: 750px;
+    }
+    .sections{
+        width: 100%;
+        height: 550px  !important;
+        display: flex;
+        flex-direction: column  !important;
+        position: absolute;
+        top: 20%;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .section1 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sections div{
+        width:100% !important;
+        height: 200px;
+    }
+    .sections div p{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 200 !important;
+        line-height: 55px; 
+        letter-spacing: 1.5px;    
+    }
 }
 
 
