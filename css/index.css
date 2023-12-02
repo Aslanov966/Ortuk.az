@@ -576,7 +576,8 @@ footer{
     }
     .navbar-items{
         width: 80%;
-        display: none;
+        visibility: hidden;
+        opacity: 0;
     }
 }
 
