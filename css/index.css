@@ -859,13 +859,13 @@ footer{
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         margin-top: 30px;
     }
     .footer-logo{
-        width: 20%;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         margin-top: 30px;
         border-radius: 44px;
     }
@@ -875,12 +875,13 @@ footer{
         border-radius: 40px;
     }
     .footer-page{
-        width: 15%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         gap: 10px;
         margin-top: 30px;
+        text-align: center;
     }
     .footer-nav-head{
         color: rgba(255, 255, 255, 0.90);
@@ -910,7 +911,8 @@ footer{
         word-wrap: break-word
     }
     .footer-address{
-        width: 15%;
+        width: 100%;
+        text-align: center;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -936,7 +938,7 @@ footer{
         word-wrap: break-word
     }
     .footer-social{
-    
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -957,15 +959,17 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 12px;
         margin-top: 30px;
     }
     
     .footer-social-icons a i{
-        font-size: 33px;
+        font-size: 30px;
     }
     .footer-contact{
+        width: 100%;
         height: 100%;
         margin-top: 30px;
     }
@@ -1003,7 +1007,7 @@ footer{
     }
     .copywriter{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .writer{
         width: 100%;
