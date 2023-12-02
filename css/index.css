@@ -572,6 +572,8 @@ footer{
 @media only screen and (max-width:576px){
     .container{
         width: 100%;
+        margin: auto;
+        overflow: hidden;
 
     }
     .navbar-items{
