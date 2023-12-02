@@ -742,6 +742,61 @@ footer{
         line-height: 55px; 
         letter-spacing: 1.5px;    
     }
+
+    .products{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .products-title{
+        width: 100%;
+        height: 80px;
+        color: #000;
+        text-align: center;
+        font-family: Fira Sans;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px; 
+        letter-spacing: 3.76px;
+        margin-top: 50px;
+    }
+    .cards{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+        border: 0;
+        width: 100% !important;
+        height:450px;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .card-text{
+        width: 100%;
+        height: 80px;
+        color: black;
+        text-align: center;
+        font-family: Fira Sans;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px;
+        letter-spacing: 3.76px;
+        margin-top: 30px;
+    }
+    .card img{
+        width: 100% !important;
+        height: 320px !important;    
+    }
 }
 
 
