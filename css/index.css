@@ -656,7 +656,7 @@ footer{
         width: 100%;
         border: 0;
         width: 100% !important;
-        height:360px;
+        height:400px;
         display: flex;
         flex-direction: column !important;
         align-items: center;
@@ -678,7 +678,7 @@ footer{
     }
     .card img{
         width: 100% !important;
-        height: 270px !important;    
+        height: 300px !important;    
     }
 }
 
