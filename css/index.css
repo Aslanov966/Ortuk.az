@@ -644,6 +644,7 @@ footer{
         justify-content: center;
     }
     .navbar-logo{
+        display: block;
         align-items: center;
     }
     .navbar-items{
