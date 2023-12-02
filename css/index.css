@@ -583,6 +583,19 @@ footer{
     }
 }
 
+@media only screen and (min-width:576px) and (max-width:768px){
+    .container{
+        width: 100% !important;
+        margin: auto;
+        overflow: hidden;
+    }
+    .navbar-items{
+        width: 80%;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
 
 
 
