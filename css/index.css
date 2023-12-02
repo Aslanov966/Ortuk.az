@@ -690,7 +690,7 @@ footer{
     }
     .youtube{
         width: 100%;
-        height:600px;
+        height:850px;
         display: flex;
         flex-direction: column !important;
         justify-content: space-between;
@@ -752,7 +752,7 @@ footer{
 
     .socials{
         width: 100%;
-        height: 650px;
+        height: 400px;
         margin-top: 150px;
     }
     .social-head{
@@ -770,12 +770,12 @@ footer{
      
     .social-body {
         width: 100%;
-        height: 400px;
+        height: 250px;
         margin-top: 50px;
     }
     
     .social-icons {
-        width: 50%;
+        width: 100%;
         height: 100%;
         text-align: center;
     }
@@ -792,7 +792,7 @@ footer{
 
     .locations{
         width: 100%;
-        height: 500px !important;
+        height: 750px !important;
         margin-top: 20px;
     }
     .location-head{
@@ -809,7 +809,7 @@ footer{
     }
     .location{
         width: 100%;
-        height:350px;
+        height:550px;
         display: flex;
         flex-direction: column !important;
         justify-content: space-between;
@@ -828,16 +828,16 @@ footer{
         margin-top: 10px;
         text-align: center;
         color: black;
-        font-size: 47px;
+        font-size: 38px;
         font-family: Fira Sans;
         font-weight: 300;
-        line-height: 65px;
-        letter-spacing: 3.76px;
+        line-height: 50px;
+        letter-spacing: 1.76px;
         word-wrap: break-word;
     }
     .location-maps{
         width: 100%;
-        height: 65%;
+        height: 55%;
         border-radius: 40px;
     
     }
