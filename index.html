@@ -59,9 +59,10 @@
       </div>
     </div>
   </header>
-  <div class="hamburger-navbar">
+  <div class="hamburger-navbar" id="hamburger-navbar">
     <div class="hamburger-close-icon">
-      <i class="fa-solid fa-xmark"></i>
+      <a onclick="closelittlebar()"><i class="fa-solid fa-xmark"></i>
+      </a>
     </div>
     <div class="hamburger-navbar-logo">
       <a href="index.html">Örtük.az</a>
@@ -248,6 +249,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        function closelittlebar(){
+          document.getElementById("#hamburger-navbar").style.display="none";
+        }
     </script>
 </body>
 
