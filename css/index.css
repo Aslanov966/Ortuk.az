@@ -75,14 +75,15 @@ header{
     height: 100%;
     position: fixed;
     z-index: 999999;
-    background-color: #FFFFFFFF;
+    background-color: plum;
 
 }
 .hamburger-navbar-logo{
     width: 100%;
     text-align: center;
     height: 60px;
-    margin-top: 60px
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .hamburger-navbar-logo a{
     width: 100%;
@@ -130,7 +131,11 @@ header{
     line-height: 0px; 
     letter-spacing: 1.0px;
 }
+.hamburger-close-icon {
+    width: 40px;
+    height: 40px;
 
+}
 .hamburger-close-icon i{
     color: #FF00CD;
     font-size: 35px;
