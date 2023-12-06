@@ -79,7 +79,22 @@ header{
 
 }
 .hamburger-navbar-logo{
-    
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+.hamburger-navbar-logo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #FF00CD !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 0px; 
+    letter-spacing: 1.2px;
 }
 .hamburger-menu{
     display: none;
