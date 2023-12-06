@@ -414,7 +414,8 @@ footer{
     font-weight:200;
     line-height: 31px;
     letter-spacing: 1.42px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-align: center;
 }
 .footer-navs{
     width: 100%;
