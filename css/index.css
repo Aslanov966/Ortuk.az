@@ -36,7 +36,7 @@ header{
     display: flex;
 }
 .navbar-items{
-    width: 80%;
+    width: 78%;
 }
 .nav-items{
     display: flex;
@@ -72,11 +72,13 @@ header{
 }
 
 .hamburger-menu{
+    width: 10%;
+    height: 100%;
     border: 2px solid #FFFFFF;
 }
 .hamburger-menu i {
-    font-size: 20px;
-    border: 2px solid #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 .section1{
     position: relative;
