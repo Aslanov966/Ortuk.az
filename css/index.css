@@ -71,14 +71,14 @@ header{
     letter-spacing: 1.2px;
 }
 
-.hamburger-menu{
-    width: 10%;
-    height: 100%;
-    border: 2px solid #FFFFFF;
-}
+/* .hamburger-menu{
+    display: none;
+} */
 .hamburger-menu i {
-    font-size: 30px;
-    color: #FFFFFF;
+    width: 100%;
+    font-size: 25px;
+    color: #FFFFFFFF;
+    text-align: center;
 }
 .section1{
     position: relative;
