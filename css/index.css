@@ -669,7 +669,7 @@ footer{
         display: none !important;
     }
     .hamburger-navbar{
-        display: flex;
+        display: block;
     }
     .hamburger-menu{
         display: flex !important;
@@ -1157,7 +1157,7 @@ footer{
         display: none;
     }
     .hamburger-navbar{
-        display: flex;
+        display: block;
     }
     .hamburger-menu{
         display: flex !important;
@@ -1845,6 +1845,9 @@ footer{
     .hamburger-menu{
         display: none !important;
     } 
+    .hamburger-navbar{
+        display: none !important;
+    }
     footer{
         width: 100%;
         background-color: #FF00CD;
