@@ -70,7 +70,17 @@ header{
     line-height: 0px; 
     letter-spacing: 1.2px;
 }
+.hamburger-navbar{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    background-color: #FFFFFFFF;
 
+}
+.hamburger-navbar-logo{
+    
+}
 .hamburger-menu{
     display: none;
 } 
