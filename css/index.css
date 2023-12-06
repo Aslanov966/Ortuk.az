@@ -134,7 +134,7 @@ header{
 .hamburger-close-icon i{
     color: #FF00CD;
     font-size: 35px;
-    margin-right: 100%;
+    margin-left: 100%;
 }
 .hamburger-menu{
     display: none;
