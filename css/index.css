@@ -669,7 +669,7 @@ footer{
         display: none !important;
     }
     .hamburger-navbar{
-        display: none;
+        display: block !important;
     }
     .hamburger-menu{
         display: flex !important;
