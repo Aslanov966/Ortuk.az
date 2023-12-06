@@ -82,6 +82,7 @@ header{
     width: 100%;
     text-align: center;
     height: 60px;
+    margin-top: 60px
 }
 .hamburger-navbar-logo a{
     width: 100%;
@@ -90,7 +91,7 @@ header{
     color: #FF00CD !important;
     text-align: center;
     font-family: Inter;
-    font-size: 26px;
+    font-size: 35px;
     font-style: italic;
     font-weight: 500;
     line-height: 0px; 
