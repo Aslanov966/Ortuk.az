@@ -91,7 +91,7 @@ header{
     color: #FF00CD !important;
     text-align: center;
     font-family: Inter;
-    font-size: 35px;
+    font-size: 50px;
     font-style: italic;
     font-weight: 500;
     line-height: 0px; 
@@ -104,20 +104,22 @@ header{
 .hamburger-nav-items{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    height: 100%;
-    list-style: none;
+    height: 300px;
+    list-style: none !important;
 }
 .hamburger-nav-items li{
-    list-style: none;
-    width: 25%;
+    list-style: none !important;
+    text-align: center;
+    width: 100%;
 }
 .hamburger-nav-item a{
     text-decoration: none !important;
     color: #FF00CD !important;
     text-align: center;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 50px;
     font-style: italic;
     font-weight: 300;
     line-height: 0px; 
