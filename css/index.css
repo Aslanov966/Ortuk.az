@@ -130,9 +130,6 @@ header{
     line-height: 0px; 
     letter-spacing: 1.0px;
 }
-.hamburger-close-icon{
-    margin-left: 100%;
-}
 
 .hamburger-close-icon i{
     color: #FF00CD;
