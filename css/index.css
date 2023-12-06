@@ -1561,6 +1561,7 @@ footer{
         display: flex;
         flex-direction: row !important;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 30px;
     }
     .footer-logo{
