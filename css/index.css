@@ -596,6 +596,7 @@ footer{
     }
     .navbar-items{
         width: 78%;
+        display: none;
     }
     .hamburger-menu{
         display: flex !important;
