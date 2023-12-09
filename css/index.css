@@ -149,7 +149,7 @@ header{
     font-size: 35px;
 }
 .hamburger-menu{
-    display: block;
+    display: block !important;
 } 
 .hamburger-menu i {
     width: 100%;
