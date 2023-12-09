@@ -266,12 +266,12 @@
         var element=document.getElementById("navbar-little");
         element.classList.add("closed");
       }
-      // function closelittlebar(){
-      //   document.getElementById("navbar-little").style = "visibility: hidden; opacity: 0;";
-      // }
-      // function openlittlebar(){
-      //   document.getElementById("navbar-little").style="    visibility: visible; opacity: 1; !important";
-      // }
+
+      document.getElementById("navbar-little").onmouseover = function() {mouseOver()};
+
+      function mouseOver() {
+        document.getElementById("navbar-little").style.display = "block !important";
+      }
     </script>
 </body>
 
