@@ -4,7 +4,9 @@
     box-sizing: border-box;
    
 }
-
+.header{
+    display: flex;
+}
 nav{
     height: 60px;
     width: 100vw;
@@ -63,39 +65,6 @@ nav{
     width: 80%;
 }
  
- /*Styling Buttons*/
-.login-button{
-   background-color: transparent;
-   border: 1.5px solid #f2f5f7;
-   border-radius: 2em;
-   padding: 0.6rem 0.8rem;
-   margin-left: 2vw;
-   font-size: 1rem;
-   cursor: pointer;
-
-}
-.login-button:hover {
-   color: #131418;
-   background-color: #f2f5f7;
-   border:1.5px solid #f2f5f7;
-   transition: all ease-in-out 350ms;
-}
-.join-button{
-   color: #131418;
-   background-color: #61DAFB;
-   border: 1.5px solid #61DAFB;
-   border-radius: 2em;
-   padding: 0.6rem 0.8rem;
-   font-size: 1rem;
-   cursor: pointer;
-}
-.join-button:hover {
-   color: #f2f5f7;
-   background-color: transparent;
-   border:1.5px solid #f2f5f7;
-   transition: all ease-in-out 350ms;
-}
-
 /*Styling Hamburger Icon*/
 .hamburger div{
    width: 30px;
@@ -120,17 +89,6 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
  }
 
- 
-/* header{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    background-color: #FF00CD;
-    position: fixed;
-    z-index: 99999;
-    justify-content: center;
-} */
 .container{
     max-width: 1320px;
     width: 100%;
@@ -138,32 +96,7 @@ nav{
     overflow: hidden;
 
 }
-/* .navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    
-}
-.navbar-logo{
-    align-items: center;
-    display: flex;
-}
-.navbar-items{
-    width: 78%;
-}
-.nav-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-}
-.nav-items li{
-    list-style: none;
-    width: 25%;
-}
+
 .nav-item a{
     text-decoration: none;
     color: #FFF !important;
@@ -186,10 +119,7 @@ nav{
     line-height: 0px; 
     letter-spacing: 1.2px;
 }
-*/
-.header{
-    display: flex;
-}
+
 .section1{
     position: relative;
     width: 100%;
@@ -673,73 +603,7 @@ footer{
     word-wrap: break-word;
     text-decoration: none;
 }
-
-
-/*Stying for small screens*/
-/* @media screen and (max-width: 576px){
-   nav{
-       position: fixed;
-       z-index: 3;
-   }
-   .hamburger{
-       display:block;
-       position: absolute;
-       cursor: pointer;
-       right: 5%;
-       top: 50%;
-       transform: translate(-5%, -50%);
-       z-index: 2;
-       transition: all 0.7s ease;
-   }
-   .nav-links{
-       position: fixed;
-       background: #FF00CD;
-       height: 100vh;
-       width: 100%;
-       flex-direction: column;
-       clip-path: circle(50px at 90% -20%);
-       -webkit-clip-path: circle(50px at 90% -10%);
-       transition: all 1s ease-out;
-       pointer-events: none;
-   }
-   .nav-links.open{
-       clip-path: circle(1000px at 90% -10%);
-       -webkit-clip-path: circle(1000px at 90% -10%);
-       pointer-events: all;
-   }
-   .nav-links li{
-       opacity: 0;
-   }
-   .nav-links li:nth-child(1){
-       transition: all 0.5s ease 0.2s;
-   }
-   .nav-links li:nth-child(2){
-       transition: all 0.5s ease 0.4s;
-   }
-   .nav-links li:nth-child(3){
-       transition: all 0.5s ease 0.6s;
-   }
-   .nav-links li:nth-child(4){
-       transition: all 0.5s ease 0.7s;
-   }
-   .nav-links li:nth-child(5){
-       transition: all 0.5s ease 0.8s;
-   }
-   .nav-links li:nth-child(6){
-       transition: all 0.5s ease 0.9s;
-       margin: 0;
-   }
-   .nav-links li:nth-child(7){
-       transition: all 0.5s ease 1s;
-       margin: 0;
-   }
-   li.fade{
-       opacity: 1;
-   }
-} */
-
-
-           
+          
                                                             /*Responsive Design */
 
 
@@ -781,7 +645,7 @@ footer{
         pointer-events: all;
     }
     .nav-links li{
-        opacity: 1;
+        opacity: 0;
     }
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
@@ -809,33 +673,6 @@ footer{
     li.fade{
         opacity: 1;
     }
-    /* header{
-        width: 100%;
-        height: 50px;
-        display: flex;
-        flex-direction: row;
-        background-color: #FF00CD;
-        position: fixed;
-        z-index: 99999;
-        justify-content: center;
-    }
-    .navbar-logo{
-        display: block;
-        align-items: center;
-    }
-    .navbar-items{
-        width: 78%;
-        display: none !important;
-    }   
-    .hamburger-menu{
-        display: flex !important;
-    } 
-    .hamburger-menu i {
-        width: 100%;
-        font-size: 25px;
-        color: #FFFFFFFF;
-        text-align: center;
-    } */
     .section1{
         position: relative;
         width: 100%;
