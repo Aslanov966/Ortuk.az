@@ -71,6 +71,7 @@ header{
     letter-spacing: 1.2px;
 }
 .hamburger-navbar{
+    display: none;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -84,10 +85,7 @@ header{
 .closed{
     display: none;
 }
-/* .hamburger-navbar :hover {
-    visibility: visible !important;
-    opacity: 1 !important;
-} */
+
 .hamburger-navbar-logo{
     width: 100%;
     text-align: center;
@@ -676,6 +674,9 @@ footer{
     .navbar-items{
         width: 78%;
         display: none !important;
+    }
+    .hamburger-navbar{
+        display: none;
     }
     .hamburger-menu{
         display: flex !important;
