@@ -76,15 +76,18 @@ header{
     position: fixed;
     z-index: 999999;
     background-color: plum;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 1.5s;
 
 }
-.hamburger-navbar :hover {
+.active{
+    display: block;
+}
+.closed{
+    display: none;
+}
+/* .hamburger-navbar :hover {
     visibility: visible !important;
     opacity: 1 !important;
-}
+} */
 .hamburger-navbar-logo{
     width: 100%;
     text-align: center;
@@ -932,8 +935,6 @@ footer{
         border-radius: 40px;
     
     }
-
-
 
     footer{
         width: 100%;

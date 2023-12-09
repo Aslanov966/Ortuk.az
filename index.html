@@ -54,7 +54,7 @@
           </ul>
         </div> 
         <div class="hamburger-menu">
-          <a href="" onclick=" openlittlebar()">
+          <a href="" onclick=" active()">
             <i class="fa-solid fa-bars"></i>
           </a>
         </div> 
@@ -63,7 +63,7 @@
   </header>
   <div class="hamburger-navbar" id="navbar-little">
     <div class="hamburger-close-icon">
-      <a onclick="closelittlebar()"><i class="fa-solid fa-xmark"></i>
+      <a onclick="closed()"><i class="fa-solid fa-xmark"></i>
       </a>
     </div>
     <div class="hamburger-navbar-logo">
@@ -251,12 +251,20 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      function closelittlebar(){
-        document.getElementById("navbar-little").style = "visibility: hidden; opacity: 0;";
+      function active(){
+        var element=document.getElementById("navbar-little");
+        element.classList.add("active");
       }
-      function openlittlebar(){
-        document.getElementById("navbar-little").style="    visibility: visible; opacity: 1; !important";
+      function closed(){
+        var element=document.getElementById("navbar-little");
+        element.classList.add("closed");
       }
+      // function closelittlebar(){
+      //   document.getElementById("navbar-little").style = "visibility: hidden; opacity: 0;";
+      // }
+      // function openlittlebar(){
+      //   document.getElementById("navbar-little").style="    visibility: visible; opacity: 1; !important";
+      // }
     </script>
 </body>
 
