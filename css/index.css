@@ -78,7 +78,12 @@ header{
     background-color: plum;
     visibility: hidden;
     opacity: 0;
+    transition: all 0.5s;
 
+}
+.hamburger-navbar :hover {
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 .hamburger-navbar-logo{
     width: 100%;
@@ -669,7 +674,6 @@ footer{
         width: 78%;
         display: none !important;
     }
-    
     .hamburger-menu{
         display: flex !important;
     } 
@@ -698,8 +702,7 @@ footer{
     .section1 img{
         width: 100%;
         height: 100%;
-    }
-    
+    }   
     .sections div{
         width:100% !important;
         height: 200px;
@@ -769,7 +772,6 @@ footer{
         width: 100% !important;
         height: 300px !important;    
     }
-
     .youtubes{
         width: 100%;
         height: 960px;
@@ -839,7 +841,6 @@ footer{
     
     
     }
-
     .socials{
         width: 100%;
         height: 400px;
@@ -856,21 +857,17 @@ footer{
         letter-spacing: 3.76px;
         word-wrap: break-word;
         text-align: center;
-    }
-     
+    }    
     .social-body {
         width: 100%;
         height: 250px;
         margin-top: 50px;
-    }
-    
+    }   
     .social-icons {
         width: 100%;
         height: 100%;
         text-align: center;
-    }
-    
-    
+    }  
     .social-icons a i {
         font-size: 40px;
         border-radius: 25%;
@@ -878,8 +875,6 @@ footer{
         margin-right: 40px;
     
     }
-
-
     .locations{
         width: 100%;
         height: 750px !important;
@@ -1122,9 +1117,6 @@ footer{
         word-wrap: break-word;
         text-decoration: none;
     }
-
-
-
 
 }
 
