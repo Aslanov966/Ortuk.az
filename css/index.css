@@ -647,6 +647,13 @@ footer{
     .nav-links li{
         opacity: 1;
     }
+    .fade {
+        @include transition($transition-fade);
+      
+        &:not(.show) {
+          opacity: 1;
+        }
+      }
     .nav-links li:nth-child(1){
         transition: all 1.5s ease 0.2s;
     }
