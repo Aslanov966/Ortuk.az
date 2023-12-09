@@ -80,10 +80,10 @@ header{
 
 }
 .active{
-    display: block;
+    display: block !important;
 }
 .closed{
-    display: none;
+    display: none !important;
 }
 
 .hamburger-navbar-logo{
