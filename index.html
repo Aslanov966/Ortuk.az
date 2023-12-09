@@ -61,7 +61,7 @@
           </ul>
         </div> 
         <div class="hamburger-menu">
-          <a href="" onclick=" active()">
+          <a href="">
             <i class="fa-solid fa-bars"></i>
           </a>
         </div> 
@@ -70,7 +70,7 @@
   </header>
   <div class="hamburger-navbar" id="navbar-little">
     <div class="hamburger-close-icon">
-      <a onclick="closed()"><i class="fa-solid fa-xmark"></i>
+      <a onclick=""><i class="fa-solid fa-xmark"></i>
       </a>
     </div>
     <div class="hamburger-navbar-logo">
@@ -258,21 +258,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      var element=document.getElementById("navbar-little");
-      var element=document.getElementById("navbar-little");
-      function active(){
-        element.classList.add("active");
-      }
-      function closed(){
-        element.classList.add("closed");
-      }
-
-      document.getElementById("navbar-little").onmouseover = function() {
-        document.getElementById("navbar-little").style.display = "block !important";
-      };
-
-      // function mouseOver() {
-      // }
     </script>
 </body>
 
