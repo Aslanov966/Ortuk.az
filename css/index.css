@@ -678,6 +678,9 @@ footer{
     .hamburger-navbar{
         display: none;
     }
+    .hamburger-navbar :hover{
+        display: block !important;
+    }
     .active{
         display: block !important;
     }
