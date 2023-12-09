@@ -678,6 +678,13 @@ footer{
     .hamburger-navbar{
         display: none;
     }
+    .active{
+        display: block !important;
+    }
+    .closed{
+        display: none !important;
+    }
+    
     .hamburger-menu{
         display: flex !important;
     } 
@@ -1149,9 +1156,15 @@ footer{
         width: 80%;
         display: none;
     }
-    /* .hamburger-navbar{
-        display: block;
-    } */
+    .hamburger-navbar{
+        display: none;
+    }
+    .active{
+        display: block !important;
+    }
+    .closed{
+        display: none !important;
+    }
     .hamburger-menu{
         display: flex !important;
     } 
@@ -1637,9 +1650,15 @@ footer{
         width: 80%;
         display: none;
     }
-    /* .hamburger-navbar{
-        display: block;
-    } */
+    .hamburger-navbar{
+        display: none;
+    }
+    .active{
+        display: block !important;
+    }
+    .closed{
+        display: none !important;
+    }
     .hamburger-menu{
         display: flex !important;
     } 
