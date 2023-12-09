@@ -77,17 +77,7 @@ nav{
    display: none;
 }
 
-/*Animating Hamburger Icon on Click*/
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
- }
- .toggle .line2{
-    transition: all 0.7s ease;
-    width:0;
- }
- .toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
- }
+
 
 .container{
     max-width: 1320px;
@@ -645,30 +635,36 @@ footer{
         pointer-events: all;
     }
     .nav-links li{
-        opacity: 1;
-    }
-    .fade {
-        @include transition($transition-fade);
-      
-        &:not(.show) {
-          opacity: 1;
-        }
-      }
-    .nav-links li:nth-child(1){
-        transition: all 1.5s ease 0.2s;
-    }
-    .nav-links li:nth-child(2){
-        transition: all 1.5s ease 0.4s;
-    }
-    .nav-links li:nth-child(3){
-        transition: all 1.5s ease 0.6s;
-    }
-    .nav-links li:nth-child(4){
-        transition: all 1.5s ease 0.7s;
-    }
-    li.fade{
         opacity: 0;
     }
+  
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    li.fade{
+        opacity: 1;
+    }
+
+    /*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+ }
+ .toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+ }
+ .toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+ }
     .section1{
         position: relative;
         width: 100%;
