@@ -17,13 +17,21 @@ nav{
  /*Styling logo*/
 .logo{
     padding:1vh 1vw;
+    align-items: center;
+    display: flex;
+
+} 
+.logo a{
+    text-decoration: none;
+    color: #FFFFFF !important;
     text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 0px; 
+    letter-spacing: 1.2px;
 }
-.logo img {
-    height: 5rem;
-    width: 5rem;
-}
- 
  /*Styling Links*/
 .nav-links{
     display: flex;
@@ -36,6 +44,14 @@ nav{
 }
 .nav-links li a{
     text-decoration: none;
+    color: #FFF !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 0px; 
+    letter-spacing: 1.0px;
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
@@ -157,7 +173,7 @@ nav{
     line-height: 0px; 
     letter-spacing: 1.2px;
 }
- */
+*/
 .section1{
     position: relative;
     width: 100%;
