@@ -188,6 +188,9 @@ nav{
     letter-spacing: 1.2px;
 }
 */
+.header{
+    display: flex;
+}
 .section1{
     position: relative;
     width: 100%;
@@ -2098,7 +2101,6 @@ footer{
         width: 100% !important;
         margin: auto;
         overflow: hidden;
-
     }
 
    
