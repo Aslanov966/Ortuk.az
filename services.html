@@ -12,23 +12,26 @@
   <link rel="icon" href="./images/ortuk-az-1.jpg" type="image/icon type">
 </head>
 <body>
-    <header>
+    <nav>
         <div class="container">
-            <div class="navbar">
-                <div class="navbar-logo">
-                    <a href="index.html">Örtük.az</a>
-                </div>
-                <div class="navbar-items">
-                    <ul class="nav-items">
-                        <li class="nav-item"><a href="./index.html">Əsas Səhifə</a> </li>
-                        <li class="nav-item"><a href="./products.html">Məhsullar </a> </li>
-                        <li class="nav-item"><a href="./services.html">Xidmətlər </a> </li>
-                        <li class="nav-item"><a href="./about.html">Haqqımızda</a> </li>
-                    </ul>
-                </div>
+          <div class="header">
+            <div class="logo">
+              <a href="./index.html">Örtük.az</a>
             </div>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+              <li><a href="./index.html">Əsas Səhifə</a></li>
+              <li><a href="./products.html">Məhsullar</a></li>
+              <li><a href="./services.html">Xidmətlər</a></li>
+              <li><a href="./about.html">Haqqımızda</a></li>
+            </ul>
+          </div>
         </div>
-    </header>
+     </nav>
 
     <div class="services">
         <div class="container">
@@ -131,6 +134,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+        const links = document.querySelectorAll(".nav-links li");
+        
+        hamburger.addEventListener('click', ()=>{
+           //Animate Links
+            navLinks.classList.toggle("open");
+            links.forEach(link => {
+                link.classList.toggle("fade");
+            });
+        
+            //Hamburger Animation
+            hamburger.classList.toggle("toggle");
+        });
     </script>
 </body>
 </html>
