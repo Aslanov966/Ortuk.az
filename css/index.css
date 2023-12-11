@@ -1099,8 +1099,6 @@ footer{
     }
 
 }
-
-
                                                             /* 576-768*/
 @media only screen and (min-width:576px) and (max-width:768px){
     .container{
@@ -1166,7 +1164,7 @@ footer{
         margin: 0;
     }
     li.fade{
-        opacity: 1 !important;
+        opacity: 1!important;
     }
 
     .section1{
@@ -1691,7 +1689,7 @@ footer{
         margin: 0;
     }
     li.fade{
-        opacity: 1 !important;
+        opacity: 1!important;
     }
     footer{
         width: 100%;
@@ -1941,7 +1939,7 @@ footer{
         margin: 0;
     }
     li.fade{
-        opacity: 1 !important;
+        opacity: 1!important;
     }
 
     footer{
