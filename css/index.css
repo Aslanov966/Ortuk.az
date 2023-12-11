@@ -56,7 +56,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #61DAFB;
+    color: #61DAFB !important;
 }
 .nav-links li {
     position: relative;
