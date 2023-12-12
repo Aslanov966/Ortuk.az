@@ -479,7 +479,7 @@ footer{
         width: 100%;
         height: 880px !important;
         margin-top: 30px;
-        gap: 0 !important;
+        gap: 60px !important;
     }
     .about-logo{
         width: 100%  !important;
@@ -489,7 +489,7 @@ footer{
         display: flex;
         align-items: center;
         width: 100%;
-        height: 480px;
+        height: 460px;
     }
     .about-text p{
         width: 100%;
