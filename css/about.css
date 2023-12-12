@@ -489,7 +489,28 @@ footer{
         align-items: center;
     
     }
-   
+    
+    .about-groups{
+        display: flex;
+        flex-direction: column  !important;
+        width: 100%;
+        height: 880px !important;
+        margin-top: 30px;
+        gap: 0 !important;
+    }
+    .about-logo{
+        width: 100%  !important;
+        height: 350px  !important;
+    }
+    .about-text {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 480px;
+    }
+    .about-text p{
+        width: 100%;
+    }
 
     footer{
         width: 100%;
