@@ -913,6 +913,91 @@ footer{
     li.fade{
         opacity: 1!important;
     }
+    .service-body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: space-between;
+      }
+      .service-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+       }
+       .service-texts {
+        display: flex;
+        flex-direction: column  !important;
+        width: 100%;
+        margin-top: 40px;
+       }
+       .service-texts div {
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 20px;
+       }
+       .service1-body {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+       }
+       .service1-body p {
+        width: 100%;
+        height: 100%;
+        color: black;
+        font-size: 30px;
+        font-family: Fira Sans;
+        font-weight: 400;
+        line-height: 40px;
+        word-wrap: break-word;
+        text-align: center;
+        display: flex;
+        align-items: center;
+       }
+       .service2-body {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        }
+        .service2-body p {
+            width: 100%;
+            height: 100%;
+            color: black;
+            font-size: 30px;
+            font-family: Fira Sans;
+            font-weight: 400;
+            line-height: 40px;
+            word-wrap: break-word;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+        .service3-body {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+        .service3-body p {
+            width: 100%;
+            height: 100%;
+            color: black;
+            font-size: 30px;
+            font-family: Fira Sans;
+            font-weight: 400;
+            line-height: 40px;
+            word-wrap: break-word;
+            text-align: center !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
     footer{
         width: 100%;
         height: 100%;
