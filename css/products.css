@@ -395,10 +395,6 @@ nav{
 
     font-size: 62px;
 }
-
-
-
-
 footer{
     width: 100%;
     height: 350px;
@@ -511,7 +507,6 @@ footer{
     gap: 12px;
     margin-top: 30px;
 }
-
 .footer-social-icons a i{
     font-size: 33px;
 }
@@ -580,8 +575,9 @@ footer{
 }
 
 
+                                /* Responsive*/
 
-
+                                /*  576px*/
 @media only screen and (max-width:576px){
     .container{
         width: 100% !important;
@@ -639,34 +635,142 @@ footer{
     }
 
     /*Animating Hamburger Icon on Click*/
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
- }
- .toggle .line2{
-    transition: all 0.7s ease;
-    width:0;
- }
- .toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
- }
-    .section1{
-        position: relative;
-        width: 100%;
-        height: 750px;
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
     }
-    .sections{
+    .toggle .line2{
+       transition: all 0.7s ease;
+       width:0;
+    }
+    .toggle .line3{
+       transform: rotate(45deg) translate(-5px,-6px);
+    }
+    .cavrolit-group {
         width: 100%;
-        height: 550px  !important;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .cavrolite-imgs {
+        width: 100%;
+        height: 760px !important;
         display: flex;
-        flex-direction: column  !important;
-        position: absolute;
-        top: 20%;
+        flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-    
+        flex-wrap: wrap;
+        margin-top: 0px;
     }
-   
-
+    .cavrolite-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .suni-qazon-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .suni-qazon-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .suni-qazon-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .linoleum-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .lin-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .lin-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .rezin-paspas-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .rp-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .rp-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .rezin-doseme-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .rd-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .rd-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .tatami-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .tt-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .tt-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
     footer{
         width: 100%;
         height: 100%;
@@ -852,7 +956,7 @@ footer{
     }
 
 }
-                                                            /* 576-768*/
+                                  /*  576px-768px*/                          /* 576-768*/
 @media only screen and (min-width:576px) and (max-width:768px){
     .container{
         width: 100% !important;
@@ -919,6 +1023,133 @@ footer{
     li.fade{
         opacity: 1!important;
     }
+    .cavrolit-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .cavrolite-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .cavrolite-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .suni-qazon-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .suni-qazon-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .suni-qazon-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .linoleum-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .lin-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .lin-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .rezin-paspas-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .rp-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .rp-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .rezin-doseme-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .rd-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .rd-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .tatami-group {
+        width: 100%;
+        height: 900px !important;
+        border-bottom: 3px solid #FF00CD;
+    }
+    .tt-imgs {
+        width: 100%;
+        height: 760px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .tt-imgs div {
+        width: 34%;
+        height: 210px !important;
+        background-color: #D9D9D9;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+
     footer{
         width: 100%;
         height: 100%;
@@ -1110,7 +1341,7 @@ footer{
     }
 }
 
-                                                            /*768-992*/
+                                        /* 768px-992px*/                       /*768-992*/
 @media only screen and (min-width:768px) and (max-width:992px){
     .container{
         width: 100% !important;
@@ -1363,7 +1594,7 @@ footer{
         text-decoration: none;
     }
 }
-
+                                        /*992px-1200px*/ 
 @media only screen and (min-width:992px) and (max-width:1200px){
     .container{
         width: 100% !important;
