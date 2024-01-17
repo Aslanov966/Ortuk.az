@@ -514,10 +514,11 @@ footer{
         height: 300px;
         margin-top: 30px;
         border-radius: 44px;
+        text-align: center;
     }
     .footer-logo img{
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 80%;
         border-radius: 40px;
     }
     .footer-page{

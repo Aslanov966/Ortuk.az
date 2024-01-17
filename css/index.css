@@ -769,9 +769,10 @@ footer{
         display: flex;
         flex-direction: column !important;
         justify-content: space-between;
+        align-items: center;
     }
     .youtube div{
-        width: 100%;
+        width: 80%;
         height: 400px !important;
     }
     .youtube-head{
@@ -885,7 +886,7 @@ footer{
     }
     .location-text{
         width: 100%;
-        height: 30% !important;
+        height: 35% !important;
         border-radius: 40px;
     
     }
@@ -907,10 +908,12 @@ footer{
         width: 100%;
         height: 55%;
         border-radius: 40px;
+        align-items: center;
+        justify-content: center;
     
     }
     .location-maps iframe{
-        width: 100%;
+        width: 80%;
         height: 100%;
         border-radius: 40px;
     
@@ -934,10 +937,11 @@ footer{
         height: 300px;
         margin-top: 30px;
         border-radius: 44px;
+        text-align: center;
     }
     .footer-logo img{
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 80%;
         border-radius: 40px;
     }
     .footer-page{
@@ -1278,9 +1282,10 @@ footer{
         display: flex;
         flex-direction: column !important;
         justify-content: space-between;
+        align-items: center;
     }
     .youtube div{
-        width: 100%;
+        width: 85%;
         height: 490px !important;
     }
     .youtube-head{
@@ -1423,10 +1428,13 @@ footer{
         width: 100%;
         height: 55%;
         border-radius: 40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     
     }
     .location-maps iframe{
-        width: 100%;
+        width: 85%;
         height: 100%;
         border-radius: 40px;
     
